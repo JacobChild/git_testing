@@ -1,0 +1,15 @@
+In your terminal (I'm using git bash in VSCode) cd into the folder you want to clone your new repo into.
+**Cloning and making a branch**
+1. something like `cd ~/Documents`
+2. Then go online to the repo you want to clone, find the green "code tab" and copy the url in there, this one is https://github.com/JacobChild/git_testing.git
+3. Go back to the terminal and we want to clone (or locally copy) this repo so `git clone https://github.com/JacobChild/git_testing.git`
+4. That makes a new folder. Now, we need to go into that folder, so cd into that repo name, in our case `cd git_testing`
+5. Now to create a new branch, we will call it "TestBranch1", we say `git branch TestBranch1`
+6. To check it worked you can say `git branch ` and it will list all of the branches, with an asterisk by the one you are on, we are still on main in this case
+7. Now to switch and work on the branch you want, say `git checkout TestBranch1` and we are officially on that branch. 
+8. At this point you probably want to start editing things, so open this folder in whatever ide you use- note that what you open will have the contents of the branch.
+9. Make whatever changes you want and then you want to upload them online, this is called a commit. To stage changes to be uploaded `git add --all` this stages all files
+10. then to commit with a message `git commit -m "first commit to the branch!"
+
+**Updating a branch with main**
+This very file doesn't currently exist in my branch because I made it after. I am going to add it, note that the branch will only have up to here as the rest of the steps were done after I committed this file.
