@@ -13,3 +13,7 @@ In your terminal (I'm using git bash in VSCode) cd into the folder you want to c
 
 **Updating a branch with main**
 This very file doesn't currently exist in my branch because I made it after. I am going to add it, note that the branch will only have up to here as the rest of the steps were done after I committed this file.
+1. We need to update the local version of the main branch, so switch to the main branch `git checkout main`
+2. Update this branch `git pull`
+3. go back to the branch you want to update `git checkout TestBranch1`
+4. merge the main branch into TestBranch1 `git merge main`
